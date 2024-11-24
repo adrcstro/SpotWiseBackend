@@ -38,7 +38,7 @@ CLASS_NAMES = [
     'Vitiligo',
     'Warts'
 ]
-CONFIDENCE_THRESHOLD = 70  # Set the threshold to classify as "Unknown" if confidence is below this
+CONFIDENCE_THRESHOLD = 80  # Set the threshold to classify as "Unknown" if confidence is below this
 
 @app.route('/', methods=['GET'])
 def home():
